@@ -60,12 +60,126 @@ header {
     }
 }
 
+section.ctas {
+    background: #f3f3f3;
+
+    .ctas_Slider {
+        .slick-slide {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            .main_img {
+                width: 100%;
+            }
+
+            .cta_card {
+                border-radius: 40px 40px 0 40px;
+                background-color: $white;
+                max-width: 90%;
+                position: absolute;
+                bottom: 80px;
+                padding: 35px 25px;
+                background: $white;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+section.why_us {
+    padding: 141px 0;
+
+    .main_container {
+        border-radius: 41px 41px 41px 0;
+        background: linear-gradient(90deg, $primary 0 30%, $white 30% 100%);
+        overflow: hidden;
+    }
+}
+
+section.mobile_storage_service {
+    background: imgUrl('storage_service.png') left center, linear-gradient(180deg, $black 0%, $primary 100%);
+    background-size: contain;
+    padding: 100px 0 254px;
+}
+
+section.specification {
+    background: linear-gradient(#D9D9D9 0% 70%, #f3f3f3 70% 100%);
+    padding-top: 125px;
+
+    .spec-card {
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 40px 40px 0px 40px;
+        padding: 32px 42px;
+        display: flex;
+        align-items: center;
+        margin: 24px 0;
+    }
+
+    .calculator-wrapper {
+        position: relative;
+        margin-top: -63px;
+        background: $white;
+        border-radius: 64px 64px 0px 64px;
+
+        .calc_slider {
+            .slick-track {
+                display: flex;
+            }
+
+            .slick-slide {
+                height: inherit;
+            }
+
+            .calculator_form {
+                .form-control {
+                    height: 75px;
+                    border-radius: 9px;
+                    border-color: rgba(0, 0, 0, 0.5);
+                    padding: 10px 35px;
+                }
+
+                .form-button {
+                    width: 100%;
+                    color: $white;
+                    font-size: 20px;
+                    font-family: $font-dmsans;
+                    font-weight: 700;
+                    height: 76px;
+                    border-radius: 0;
+                }
+            }
+        }
+
+        .videoWrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+
+            .frame {
+                position: relative;
+                z-index: 1000;
+            }
+
+            .video {
+                position: absolute;
+                top: 3rem;
+                width: 90%;
+                z-index: 1;
+            }
+        }
+    }
+}
+
 section.faq {
     background: #f3f3f3;
     padding: 140px 0;
 
     .accordion {
         column-count: 2;
+
         .accordion-item {
             background: $white;
             border: none;

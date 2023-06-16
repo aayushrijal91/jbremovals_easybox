@@ -29,6 +29,24 @@ $('.accordion-header').on('click', function () {
     }
 });
 
+$('.ctas_Slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+});
+
+let calcSlider = $('.calc_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    // speed: 2000,
+    cssEase: 'linear'
+});
+
+$('#goToForm').on('click', function() {
+    calcSlider.slick('slickGoTo', 1);
+})
+
 $('#return-to-top').on('click', () => {
     $('body,html').animate({
         scrollTop: 0
