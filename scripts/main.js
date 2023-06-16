@@ -21,8 +21,8 @@ $(window).on('scroll', () => {
 $('.accordion-header').on('click', function () {
     $(this).parent().toggleClass('active');
     $(this).next('.accordion-content').slideToggle(200);
-   
-    if($(this).parent().hasClass('active')) {
+
+    if ($(this).parent().hasClass('active')) {
         $(this).find('.icon').html('-');
     } else {
         $(this).find('.icon').html('+');
@@ -34,6 +34,30 @@ $('.ctas_Slider').slick({
     slidesToScroll: 1,
 });
 
+$('.banner_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    speed: 500,
+    autoplaySpeed: 1000,
+    cssEase: 'linear',
+    autoplay: true,
+    asNavFor: '.banner_slider_step'
+})
+
+$('.banner_slider_step').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    speed: 500,
+    autoplaySpeed: 1000,
+    cssEase: 'linear',
+    autoplay: true,
+    asNavFor: '.banner_slider'
+})
+
 let calcSlider = $('.calc_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -43,7 +67,7 @@ let calcSlider = $('.calc_slider').slick({
     cssEase: 'linear'
 });
 
-$('#goToForm').on('click', function() {
+$('#goToForm').on('click', function () {
     calcSlider.slick('slickGoTo', 1);
 })
 

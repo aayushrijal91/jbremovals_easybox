@@ -60,6 +60,22 @@ header {
     }
 }
 
+section.banner {
+    background: $primary;
+
+    .btn {
+        height: 60px;
+    }
+
+    .banner_slider {
+        .slick-slide {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
 section.ctas {
     background: #f3f3f3;
 

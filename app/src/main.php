@@ -148,8 +148,101 @@
     </nav>
 </header>
 
-<section class="ourSteps">
-    
+<section class="banner">
+    <div class="container-fluid px-0">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-6">
+                <div class="row justify-content-end">
+                    <div class="col-lg-11 text-white">
+                        <div class="d-flex align-items-center">
+                            <?= renderImg('stars.png', 'icons') ?>
+                            <div class="fs-20 fw-700 ps-4">Over 1,248 Aussies love Easy Box™</div>
+                        </div>
+                        <div class="text-uppercase fs-64 fw-800 lh-1 py-3">Move <span class="fw-300">anywhere anytime</span> with Easy Box™</div>
+                        <div class="fs-24 font-dmsans fw-500">Mobile Storage Solution in Sydney and the Central Coast<br /> JB Removals EasyBox.</div>
+                        <div class="row py-5">
+                            <div class="col-auto">
+                                <a href="tel:<?= $phone_number ?>" class="btn bg-white text-primary rounded-0 fw-500 fs-26 px-4 py-3 font-dmsans gap-2">
+                                    <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M23.7668 8.94022L22.4668 10.2402C24.8068 12.5802 24.8068 16.2202 22.4668 18.6902L23.7668 19.9902C27.0168 17.0002 27.0168 12.0602 23.7668 8.94022ZM21.0368 11.6702L19.7368 12.9702C20.3868 13.8802 20.3868 15.0502 19.7368 15.9602L21.0368 17.2602C22.5968 15.7002 22.5968 13.3602 21.0368 11.6702ZM15.8368 0.230225H2.83682C1.40682 0.230225 0.236816 1.40022 0.236816 2.83022V26.2302C0.236816 27.6602 1.40682 28.8302 2.83682 28.8302H15.8368C17.2668 28.8302 18.4368 27.6602 18.4368 26.2302V2.83022C18.4368 1.40022 17.2668 0.230225 15.8368 0.230225ZM15.8368 24.9302H2.83682V4.13022H15.8368V24.9302Z" fill="#EF6010" />
+                                    </svg>
+
+                                    Call Now
+                                </a>
+                            </div>
+                            <div class="col-auto">
+                                <a href="" class="btn btn-black text-white rounded-0 fw-500 fs-26 px-4 py-3 font-dmsans gap-2">
+                                    Get a live quote
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="banner_slider_step mt-5">
+                            <div><?= renderImg('slider-step-1.png', 'lib') ?></div>
+                            <div><?= renderImg('slider-step-2.png', 'lib') ?></div>
+                            <div><?= renderImg('slider-step-3.png', 'lib') ?></div>
+                            <div><?= renderImg('slider-step-4.png', 'lib') ?></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="banner_slider">
+                    <div><?= renderImg('slide-1.png', 'lib') ?></div>
+                    <div><?= renderImg('slide-2.png', 'lib') ?></div>
+                    <div><?= renderImg('slide-3.png', 'lib') ?></div>
+                    <div><?= renderImg('slide-4.png', 'lib') ?></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ourSteps py-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="step-card d-flex flex-column align-items-center text-center">
+                    <?= renderImg('step-1.png', 'lib') ?>
+                    <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 1</div>
+                    <div class="fs-36 text-black fw-800">We Pack</div>
+                    <div class="fs-18 text-black font-dmsans pt-4">
+                        Our highly experienced team of professional removalists will utilise every inch of the Easy Box™ efficiently and carefully.
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="step-card d-flex flex-column align-items-center text-center">
+                    <?= renderImg('step-2.png', 'lib') ?>
+                    <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 2</div>
+                    <div class="fs-36 text-black fw-800">We Move</div>
+                    <div class="fs-18 text-black font-dmsans pt-4">
+                        Using our huge fleet of forklifts and trucks, we'll do all the heavy lifting for you.
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="step-card d-flex flex-column align-items-center text-center">
+                    <?= renderImg('step-3.png', 'lib') ?>
+                    <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 3</div>
+                    <div class="fs-36 text-black fw-800">We Store</div>
+                    <div class="fs-18 text-black font-dmsans pt-4">
+                        Our secure and managed facility is the perfect place to store your belongings, stress-free!
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="step-card d-flex flex-column align-items-center text-center">
+                    <?= renderImg('step-4.png', 'lib') ?>
+                    <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 4</div>
+                    <div class="fs-36 text-black fw-800">You Relax!</div>
+                    <div class="fs-18 text-black font-dmsans pt-4">
+                        Put your feet up with confidence, knowing you can trust the Easy Box™ end-to-end service.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="ctas">
