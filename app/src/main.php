@@ -16,7 +16,7 @@
                         <div class="col-12 col-md-auto">
                             <div class="row justify-content-center">
                                 <div class="col-auto px-1 pb-md-2 pt-md-3 py-lg-0">
-                                    <a href="tel:<?= $phone_number ?>" class="btn btn-block text-white py-3 px-md-4 h14 fw-700 line-height-1 d-flex align-items-center">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-block text-white py-3 px-md-4 h14 fw-700 line-height-1 d-flex align-items-center gap-2">
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M13.1673 11.021L10.4503 9.814C10.168 9.68775 9.85184 9.65852 9.55117 9.73088C9.25051 9.80325 8.98226 9.97313 8.78831 10.214L8.00531 11.193C6.72161 10.3693 5.62886 9.2806 4.80031 8L5.77931 7.217C6.01996 7.02311 6.1897 6.75504 6.26205 6.45459C6.33441 6.15414 6.30531 5.83819 6.17931 5.556L4.98131 2.832C4.84669 2.52868 4.6087 2.28304 4.30979 2.1389C4.01088 1.99475 3.67048 1.96148 3.34931 2.045L1.04931 2.645C0.715633 2.73134 0.425531 2.93773 0.234557 3.22465C0.0435838 3.51157 -0.0348376 3.85886 0.0143105 4.2C0.442756 7.17477 1.82316 9.93077 3.94889 12.0554C6.07462 14.1801 8.83132 15.5591 11.8063 15.986C12.1473 16.0343 12.494 15.9552 12.7803 15.7639C13.0667 15.5726 13.2724 15.2825 13.3583 14.949L13.9583 12.649C14.0418 12.3279 14.008 11.9876 13.863 11.6892C13.718 11.3908 13.4713 11.1538 13.1673 11.021Z" fill="#F7952A" />
                                             <path d="M16.0003 8H14.0003C13.9987 6.40919 13.3661 4.88399 12.2412 3.75911C11.1163 2.63424 9.59112 2.00159 8.00031 2V0C10.1213 0.00238211 12.1548 0.846002 13.6545 2.34578C15.1543 3.84555 15.9979 5.879 16.0003 8Z" fill="#F7952A" />
@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-12 col-md-auto">
                             <div class="dropdown">
-                                <a href="#" id="service-dropdown" class="dropdown-toggle btn btn-block text-white header-bottom-navigation h14 fw-600 line-height-1" data-bs-toggle="dropdown">
+                                <a href="#" id="service-dropdown" class="dropdown-toggle btn btn-block text-white header-bottom-navigation h14 fw-600 line-height-1 gap-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 12H14M1 1H14M1 6.5H14" stroke="#F7952A" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>

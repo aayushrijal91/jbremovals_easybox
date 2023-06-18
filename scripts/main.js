@@ -32,6 +32,8 @@ $('.accordion-header').on('click', function () {
 $('.ctas_Slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: "<img src='./assets/images/icons/right-arrow.png' class='next-arrow'>",
+    prevArrow: "<img src='./assets/images/icons/left-arrow.png' class='prev-arrow'>"
 });
 
 $('.banner_slider').slick({

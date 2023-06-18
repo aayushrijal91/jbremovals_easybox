@@ -101,6 +101,21 @@ section.ctas {
                 align-items: center;
             }
         }
+
+        .slick-arrow {
+            position: absolute;
+            top: 45%;
+            z-index: 1;
+            cursor: pointer;
+
+            &.prev-arrow {
+                left: 54px;
+            }
+
+            &.next-arrow {
+                right: 54px;
+            }
+        }
     }
 }
 
@@ -135,7 +150,7 @@ section.specification {
 
     .calculator-wrapper {
         position: relative;
-        margin-top: -63px;
+        margin-top: -68px;
         background: $white;
         border-radius: 64px 64px 0px 64px;
 

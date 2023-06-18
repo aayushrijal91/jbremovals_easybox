@@ -33,6 +33,10 @@ a {
         box-shadow: none;
         outline: 0;
     }
+
+    &.show, &:first-child:active {
+        border: none;
+    }
 }
 
 .text-italic {
