@@ -214,6 +214,13 @@ section.specification {
                 height: inherit;
             }
 
+            .slick-arrow.next-arrow {
+                position: absolute;
+                right: 20px;
+                top: 45%;
+                cursor: pointer;
+            }
+
             .calculator_form {
                 .form-control {
                     height: 75px;

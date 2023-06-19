@@ -63,10 +63,19 @@ $('.banner_slider_step').slick({
 let calcSlider = $('.calc_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     fade: true,
     // speed: 2000,
-    cssEase: 'linear'
+    nextArrow: "<img src='./assets/images/icons/right-arrow.png' class='next-arrow'>",
+    cssEase: 'linear',
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                arrows: false,
+            }
+        }
+    ]
 });
 
 $('#goToForm').on('click', function () {

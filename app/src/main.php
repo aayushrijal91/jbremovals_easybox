@@ -176,6 +176,7 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="fs-24 font-dmsans fw-500">First Month FREE*</div>
 
                         <div class="banner_slider_step mt-5">
                             <div><?= renderImg('slider-step-1.png', 'lib') ?></div>
@@ -586,24 +587,33 @@
                             <form action="./form.php" class="calculator_form px-3 px-md-5 px-lg-4 px-xl-5" method="POST">
                                 <div class="row gy-3 gy-md-4">
                                     <div class="col-12">
-                                        <input type="text" name="name" placeholder="Name" class="form-control">
+                                        <input type="text" name="name" placeholder="Name" class="form-control" required>
                                     </div>
                                     <div class="col-12">
-                                        <select name="easybox" class="form-control form-select">
+                                        <select name="easybox" class="form-control form-select" required>
                                             <option disabled selected>Choose Your Easy Box™</option>
+                                            <option>The Temp Store - 1 week to 3 months</option>
+                                            <option>The Secure Store - 3 to 6 months</option>
+                                            <option>The Long Term Store - 6 - 12 months+</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" name="pickup_location" placeholder="Pick Up Location" class="form-control">
+                                        <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" name="dropoff_location" placeholder="Drop off Location" class="form-control">
+                                        <input type="email" name="email" placeholder="Email Address" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="date" name="date" placeholder="Date" class="form-control">
+                                        <input type="text" name="pickup_location" placeholder="Pick Up Location" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="time" name="time" placeholder="Time" class="form-control">
+                                        <input type="text" name="dropoff_location" placeholder="Drop off Location" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="date" name="date" placeholder="Date" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="time" name="time" placeholder="Time" class="form-control" required>
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary form-button">Book your Easy Box™ Now!</button>
@@ -730,9 +740,9 @@
                                 <div class="number">2</div>
                             </div>
                             <div class="col">
-                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="title fs-24 text-primary fw-700">We Move</div>
                                 <div class="step-description fs-18 text-grey">
-                                    Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
+                                    Once everything is packed, the EasyBox is loaded onto our truck, where we transport your belongings to the desired location swiftly and securely.
                                 </div>
                             </div>
                         </div>
@@ -741,9 +751,9 @@
                                 <div class="number">3</div>
                             </div>
                             <div class="col">
-                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="title fs-24 text-primary fw-700">We Store</div>
                                 <div class="step-description fs-18 text-grey">
-                                    Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
+                                    EasyBox offers secure and spacious storage facilities to keep your possessions safe until you need them again. Our storage units are equipped with state-of-the-art security systems for ultimate peace of mind.
                                 </div>
                             </div>
                         </div>
@@ -752,9 +762,9 @@
                                 <div class="number">4</div>
                             </div>
                             <div class="col">
-                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="title fs-24 text-primary fw-700">You Relax</div>
                                 <div class="step-description fs-18 text-grey">
-                                    Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
+                                    With JB Removals and EasyBox, you can sit back, relax, and enjoy a stress-free moving and storage experience. Leave the hard work to us while you focus on settling into your new space.
                                 </div>
                             </div>
                         </div>
@@ -793,44 +803,54 @@
 
         <div class="row justify-content-center py-5 gy-3">
             <div class="col-12 col-md-6 col-lg-4 col-xl">
-                <div class="service-img">
-                    <?= renderImg('service_1.jpg', 'lib') ?>
-                </div>
-                <div class="service-card-text-wrapper">
-                    Heavy Moving
-                </div>
+                <a href="https://www.jbremovals.sydney/hercules/">
+                    <div class="service-img">
+                        <?= renderImg('service_1.jpg', 'lib') ?>
+                    </div>
+                    <div class="service-card-text-wrapper">
+                        Heavy Moving
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl">
-                <div class="service-img">
-                    <?= renderImg('service_2.jpg', 'lib') ?>
-                </div>
-                <div class="service-card-text-wrapper">
-                    Packing
-                </div>
+                <a href="https://www.jbremovals.sydney/packing-unpacking/">
+                    <div class="service-img">
+                        <?= renderImg('service_2.jpg', 'lib') ?>
+                    </div>
+                    <div class="service-card-text-wrapper">
+                        Packing
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl">
-                <div class="service-img">
-                    <?= renderImg('service_3.jpg', 'lib') ?>
-                </div>
-                <div class="service-card-text-wrapper">
-                    Unpacking
-                </div>
+                <a href="https://www.jbremovals.sydney/packing-unpacking/">
+                    <div class="service-img">
+                        <?= renderImg('service_3.jpg', 'lib') ?>
+                    </div>
+                    <div class="service-card-text-wrapper">
+                        Unpacking
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl">
-                <div class="service-img">
-                    <?= renderImg('service_4.jpg', 'lib') ?>
-                </div>
-                <div class="service-card-text-wrapper">
-                    Box Shop
-                </div>
+                <a href="https://www.jbremovals.sydney/box-shop/">
+                    <div class="service-img">
+                        <?= renderImg('service_4.jpg', 'lib') ?>
+                    </div>
+                    <div class="service-card-text-wrapper">
+                        Box Shop
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl py-2 py-xl-0">
-                <div class="service-img">
-                    <?= renderImg('service_5.jpg', 'lib') ?>
-                </div>
-                <div class="service-card-text-wrapper">
-                    Furniture Removals
-                </div>
+                <a href="https://www.jbremovals.sydney/">
+                    <div class="service-img">
+                        <?= renderImg('service_5.jpg', 'lib') ?>
+                    </div>
+                    <div class="service-card-text-wrapper">
+                        Furniture Removals
+                    </div>
+                </a>
             </div>
         </div>
 
