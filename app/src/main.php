@@ -649,36 +649,32 @@
             ],
             [
                 "question" => "What sizes are available for mobile storage units?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
+                "answer" => "Sizes may vary by provider, but common sizes for wooden or container storage units include 8x8x12, 8x8x16, or 8x8x20 feet. It's essential to consult with our team.",
             ],
             [
                 "question" => "What do I do if my items are too big for the EasyBox?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
-            ],
-            [
-                "question" => "Can the mobile storage unit be kept on my property or does it need to be stored at a designated facility?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
+                "answer" => "Don't worry, as EasyBox is powered by Sydney's large item removal experts, we have a solution for EVERYTHING. Speak with our experts today, to see how we can solve your problems.",
             ],
             [
                 "question" => "Are there any additional services, like packing assistance or moving supplies, available?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
+                "answer" => "We offer additional services like packing assistance, moving supplies, or loading/unloading help for an extra fee. Check with our team for specific offerings.",
             ],
             [
                 "question" => "How soon can the mobile storage unit be booked?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
+                "answer" => "We specialise in the 'last minute' bookings. We're available NOW. Call us today.",
             ],
             [
                 "question" => "What happens if I need to change the delivery or pick-up date after I've scheduled it?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
+                "answer" => "At EasyBox we understand that circumstances change. Call our customer service team on 0101010 and we'll organise a solution.",
+            ],
+            [
+                "question" => "Can the mobile storage unit be kept on my property or does it need to be stored at a designated facility?",
+                "answer" => "Security is one of our highest priorities, so we have a fully managed, locked and secured facility with CCTV surveillance. So we can guarantee the safety of your belongings.",
             ],
             [
                 "question" => "Are the mobile storage units weatherproof and well-ventilated to protect my belongings from damage?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
-            ],
-            [
-                "question" => "What do I do if my items are too big for the EasyBox?",
-                "answer" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend eleifend ligula, ut volutpat libero interdum eu. Aliquam erat volutpat. Suspendisse iaculis turpis sed odio interdum, ut pretium nunc rhoncus. Maecenas ac condimentum nulla, eu dapibus ex. Phasellus vestibulum lorem in e",
-            ],
+                "answer" => "Wooden and container storage units are designed to be weather-resistant and well-ventilated to protect your belongings from moisture and temperature fluctuations. They are also housed in our closed and covered secured facility.",
+            ]
         ];
         ?>
 
