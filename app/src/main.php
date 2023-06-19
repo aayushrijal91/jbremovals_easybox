@@ -148,8 +148,8 @@
     </nav>
 </header>
 
-<section class="banner">
-    <div class="container-fluid px-0">
+<section class="banner pt-5 pt-lg-0">
+    <div class="container-fluid px-lg-0">
         <div class="row gx-0 align-items-center">
             <div class="col-lg-6">
                 <div class="row justify-content-end">
@@ -162,7 +162,7 @@
                         <div class="fs-24 font-dmsans fw-500">Mobile Storage Solution in Sydney and the Central Coast<br /> JB Removals EasyBox.</div>
                         <div class="row py-5">
                             <div class="col-auto">
-                                <a href="tel:<?= $phone_number ?>" class="btn bg-white text-primary rounded-0 fw-500 fs-26 px-4 py-3 font-dmsans gap-2">
+                                <a href="tel:<?= $phone_number ?>" class="btn bg-white text-primary rounded-0 fw-500 fs-26 px-3 px-md-4 py-3 font-dmsans gap-2">
                                     <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M23.7668 8.94022L22.4668 10.2402C24.8068 12.5802 24.8068 16.2202 22.4668 18.6902L23.7668 19.9902C27.0168 17.0002 27.0168 12.0602 23.7668 8.94022ZM21.0368 11.6702L19.7368 12.9702C20.3868 13.8802 20.3868 15.0502 19.7368 15.9602L21.0368 17.2602C22.5968 15.7002 22.5968 13.3602 21.0368 11.6702ZM15.8368 0.230225H2.83682C1.40682 0.230225 0.236816 1.40022 0.236816 2.83022V26.2302C0.236816 27.6602 1.40682 28.8302 2.83682 28.8302H15.8368C17.2668 28.8302 18.4368 27.6602 18.4368 26.2302V2.83022C18.4368 1.40022 17.2668 0.230225 15.8368 0.230225ZM15.8368 24.9302H2.83682V4.13022H15.8368V24.9302Z" fill="#EF6010" />
                                     </svg>
@@ -171,7 +171,7 @@
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a href="" class="btn btn-black text-white rounded-0 fw-500 fs-26 px-4 py-3 font-dmsans gap-2">
+                                <a href="#" class="btn btn-black text-white rounded-0 fw-500 fs-26 px-3 px-md-4 py-3 font-dmsans gap-2">
                                     Get a live quote
                                 </a>
                             </div>
@@ -198,10 +198,10 @@
     </div>
 </section>
 
-<section class="ourSteps py-8">
+<section class="ourSteps py-6 py-md-8">
     <div class="container">
-        <div class="row">
-            <div class="col-3">
+        <div class="row gy-5">
+            <div class="col-md-6 col-lg-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-1.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 1</div>
@@ -211,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-2.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 2</div>
@@ -221,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-3.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 3</div>
@@ -231,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-4.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 4</div>
@@ -246,16 +246,16 @@
 </section>
 
 <section class="ctas">
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-lg-0">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center py-6 py-lg-0">
                     <div class="col-lg-8">
                         <div class="text-uppercase fw-800 text-primary fs-54 lh-1">mobile storage service JB Removals Easy Box™</div>
-                        <div class="text-black fs-18 font-dmsans py-5">
+                        <div class="text-black fs-18 font-dmsans py-4 py-md-5">
                             <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                         </div>
-                        <a href="#" class="btn btn-primary text-white d-inline-flex px-5 rounded-0 py-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
+                        <a href="#" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@
                 <div class="ctas_Slider">
                     <div class="slide">
                         <?= renderImg('cta_1.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -279,7 +279,7 @@
                     </div>
                     <div class="slide">
                         <?= renderImg('cta_2.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -294,7 +294,7 @@
                     </div>
                     <div class="slide">
                         <?= renderImg('cta_3.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -309,7 +309,7 @@
                     </div>
                     <div class="slide">
                         <?= renderImg('cta_4.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -324,7 +324,7 @@
                     </div>
                     <div class="slide">
                         <?= renderImg('cta_5.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -339,7 +339,7 @@
                     </div>
                     <div class="slide">
                         <?= renderImg('cta_6.jpg', 'lib', 'main_img') ?>
-                        <div class="cta_card gap-2">
+                        <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M62.7522 10.0112H7.25582C5.02702 10.0112 3.22021 11.818 3.22021 14.0468V69.5432C3.22021 71.772 5.02702 73.5788 7.25582 73.5788H62.7522C64.981 73.5788 66.7878 71.772 66.7878 69.5432V14.0468C66.7878 11.818 64.981 10.0112 62.7522 10.0112Z" stroke="#010101" stroke-width="6" />
@@ -364,7 +364,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-11">
                 <div class="main_container">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center gy-5">
                         <div class="col-lg-5">
                             <?= renderImg('why_us.png', 'lib') ?>
                         </div>
@@ -462,7 +462,7 @@
         </div>
         <div class="row justify-content-center pt-5">
             <div class="col-auto">
-                <a href="" class="btn bg-white text-primary rounded-0 fw-500 fs-26 px-4 py-4 font-dmsans gap-2">
+                <a href="tel:<?= $phone_number ?>" class="btn bg-white text-primary rounded-0 fw-500 fs-26 p-3 p-md-4 font-dmsans gap-2">
                     <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.7668 8.94022L22.4668 10.2402C24.8068 12.5802 24.8068 16.2202 22.4668 18.6902L23.7668 19.9902C27.0168 17.0002 27.0168 12.0602 23.7668 8.94022ZM21.0368 11.6702L19.7368 12.9702C20.3868 13.8802 20.3868 15.0502 19.7368 15.9602L21.0368 17.2602C22.5968 15.7002 22.5968 13.3602 21.0368 11.6702ZM15.8368 0.230225H2.83682C1.40682 0.230225 0.236816 1.40022 0.236816 2.83022V26.2302C0.236816 27.6602 1.40682 28.8302 2.83682 28.8302H15.8368C17.2668 28.8302 18.4368 27.6602 18.4368 26.2302V2.83022C18.4368 1.40022 17.2668 0.230225 15.8368 0.230225ZM15.8368 24.9302H2.83682V4.13022H15.8368V24.9302Z" fill="#EF6010" />
                     </svg>
@@ -471,7 +471,7 @@
                 </a>
             </div>
             <div class="col-auto">
-                <a href="" class="btn bg-primary text-white rounded-0 fw-500 fs-26 px-4 py-4 font-dmsans gap-2">
+                <a href="" class="btn bg-primary text-white rounded-0 fw-500 fs-26 p-3 p-md-4 font-dmsans gap-2">
                     Get a live quote
                 </a>
             </div>
@@ -488,11 +488,11 @@
                     <div class="text-primary">JB Removals Easy Box™</div>
                 </div>
 
-                <div class="text-white pt-8 pb-5 fs-18">
+                <div class="text-white py-5 pt-lg-8 fs-18">
                     Get a personalized and convenient storage solution that comes directly to your doorstep. Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                 </div>
 
-                <a href="#" class="btn btn-black text-white d-inline-flex px-5 rounded-0 py-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
+                <a href="#" class="btn btn-black text-white d-inline-flex px-3 px-md-5 rounded-0 py-2 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
             </div>
         </div>
     </div>
@@ -500,30 +500,30 @@
 
 <section class="specification">
     <div class="container">
-        <div class="row">
+        <div class="row gy-5">
             <div class="col-lg-5">
                 <div class="spec-card">
-                    <div class="pe-5">
+                    <div class="pe-3 pe-md-5">
                         <div class="fs-32 text-primary fw-600">The Temp Store</div>
-                        <div class="text-black fs-18 fw-500 font-dmsans">
+                        <div class="description text-black fs-18 fw-500 font-dmsans">
                             From just 1 week or to 3 Months. The Temp Store package is perfect for quick moves or temporary storage. We'll help you move in and out of your new place, or hold your things while you renovate! Fixed Price - Save up to 10%
                         </div>
                     </div>
                     <?= renderImg('temp.png', 'lib') ?>
                 </div>
                 <div class="spec-card">
-                    <div class="pe-5">
+                    <div class="pe-3 pe-md-5">
                         <div class="fs-32 text-primary fw-600">The Secure Store</div>
-                        <div class="text-black fs-18 fw-500 font-dmsans">
+                        <div class="description text-black fs-18 fw-500 font-dmsans">
                             The middle range! With our secure facilities this package is perfect for 3 - 6 Months. With 1 bonus month FREE. Store your belongings with confidence and save money!
                         </div>
                     </div>
                     <?= renderImg('secure.png', 'lib') ?>
                 </div>
                 <div class="spec-card">
-                    <div class="pe-5">
+                    <div class="pe-3 pe-md-5">
                         <div class="fs-32 text-primary fw-600">The Long Term Store</div>
-                        <div class="text-black fs-18 fw-500 font-dmsans">
+                        <div class="description text-black fs-18 fw-500 font-dmsans">
                             The smart saver package! This 6 - 12 month storage plan is PERFECT for the home builder or the space saver. With a bonus 2.5 Months FREE this gives you flexible options to store your goods while you make other plans.
                         </div>
                     </div>
@@ -541,7 +541,7 @@
         <div class="calculator-wrapper">
             <div class="calc_slider">
                 <div>
-                    <div class="row align-items-center px-lg-8">
+                    <div class="row align-items-center px-lg-8 gy-5">
                         <div class="col-lg-6 d-flex justify-content-center">
                             <div class="videoWrapper">
                                 <?= renderImg('iphoneFrame.png', 'lib', 'frame') ?>
@@ -556,9 +556,9 @@
                             <div class="px-3 px-lg-5">
                                 <div class="fs-20 fw-500 text-capitalize font-dmsans">ultimate solution for an efficient and well-organized move!</div>
                                 <div class="text-uppercase text-black fw-800 fs-54 lh-1"><span class="text-primary">Easy-as</span> storage calculator</div>
-                                <div class="py-6 fs-18 fw-500 font-dmsans">Cutting-edge device is designed to make your moving experience seamless and stress-free</div>
+                                <div class="py-4 py-md-6 fs-18 fw-500 font-dmsans">Cutting-edge device is designed to make your moving experience seamless and stress-free</div>
 
-                                <a href="javascript:void(0)" id="goToForm" class="btn btn-primary d-inline-flex text-white rounded-0 fw-700 font-dmsans fs-20 px-5 py-4">
+                                <a href="javascript:void(0)" id="goToForm" class="btn btn-primary d-inline-flex text-white rounded-0 fw-700 font-dmsans fs-20 px-3 px-md-5 py-2 py-md-4">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.4951 0.732422H2.74512C1.50762 0.732422 0.495117 1.74492 0.495117 2.98242V18.7324C0.495117 19.9699 1.50762 20.9824 2.74512 20.9824H18.4951C19.7326 20.9824 20.7451 19.9699 20.7451 18.7324V2.98242C20.7451 1.74492 19.7326 0.732422 18.4951 0.732422ZM18.4951 18.7324H2.74512V2.98242H18.4951V18.7324Z" fill="white" />
                                         <path d="M9.77637 6.04242H4.15137V7.72992H9.77637V6.04242Z" fill="white" />
@@ -576,15 +576,15 @@
                 <div>
                     <div class="row align-items-center h-100 px-lg-8">
                         <div class="col-lg-6 text-black">
-                            <div class="px-5">
+                            <div class="px-3 px-md-5">
                                 <div class="fs-20 font-dmsans">Simplify Your Storage With Easy Box Storage Solutions</div>
-                                <div class="fs-40 text-uppercase fw-800 lh-1 pt-3 pb-6">Book Your Easy Box™ Storage Today and Free Up Your Space!</div>
+                                <div class="fs-40 text-uppercase fw-800 lh-1 py-3 pb-md-6">Book Your Easy Box™ Storage Today and Free Up Your Space!</div>
                                 <div class="fs-18 font-dmsans">Experience Instant Storage Solutions - Book Now and Declutter in Minutes!</div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <form action="" class="calculator_form px-5" method="POST">
-                                <div class="row gy-4">
+                            <form action="./form.php" class="calculator_form px-3 px-md-5" method="POST">
+                                <div class="row gy-3 gy-md-4">
                                     <div class="col-12">
                                         <input type="text" name="name" placeholder="Name" class="form-control">
                                     </div>
@@ -593,16 +593,16 @@
                                             <option disabled selected>Choose Your Easy Box™</option>
                                         </select>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <input type="text" name="pickup_location" placeholder="Pick Up Location" class="form-control">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <input type="text" name="dropoff_location" placeholder="Drop off Location" class="form-control">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <input type="date" name="date" placeholder="Date" class="form-control">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <input type="time" name="time" placeholder="Time" class="form-control">
                                     </div>
                                     <div class="col-12">
@@ -663,7 +663,7 @@
         ];
         ?>
 
-        <div class="row justify-content-center pt-6">
+        <div class="row justify-content-center pt-4 pt-md-6">
             <div class="col-lg-9">
                 <ul class="accordion">
                     <?php foreach ($faqs as $faq) { ?>
@@ -700,7 +700,7 @@
 
             <div class="col-lg-6">
                 <div class="px-lg-4">
-                    <div class="text-black fs-40 ls-3 lh-1_16">
+                    <div class="description text-black fs-40 ls-3 lh-1_16">
                         <span class="fw-600">“Easy Box™ is a more efficient, and cost-effective solution compared to traditional self-storage options.</span> Make the smart choice and trust JB Removals and Storage with your moving and storage needs.”
                     </div>
                     <div class="row gx-2 py-5">
@@ -708,19 +708,19 @@
                             <a href="tel:<?= $phone_number ?>" class="btn border-2 border-white text-white rounded-0 fw-500 font-dmsans fs-20 px-4">Call <?= $phone_number ?></a>
                         </div>
                         <div class="col-auto">
-                            <a href="" class="btn btn-black text-white rounded-0 fw-500 fs-20 px-4 font-dmsans">Get a live quote</a>
+                            <a href="#" class="btn btn-black text-white rounded-0 fw-500 fs-20 px-4 font-dmsans">Get a live quote</a>
                         </div>
                     </div>
 
-                    <div class="pt-8 fs-36 fw-700 font-dmsans text-white">Here's how EasyBox works in just four simple steps:</div>
-                    <div class="font-dmsans pt-6 steps d-flex flex-column gap-4">
+                    <div class="pt-5 pt-md-8 fs-36 fw-700 font-dmsans text-white">Here's how EasyBox works in just four simple steps:</div>
+                    <div class="font-dmsans pt-5 pt-md-6 steps d-flex flex-column gap-4">
                         <div class="row">
                             <div class="col-auto">
                                 <div class="number">1</div>
                             </div>
                             <div class="col">
-                                <div class="fs-24 text-primary fw-700">We Pack</div>
-                                <div class="fs-18 text-grey">
+                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="step-description fs-18 text-grey">
                                     Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
                                 </div>
                             </div>
@@ -730,8 +730,8 @@
                                 <div class="number">2</div>
                             </div>
                             <div class="col">
-                                <div class="fs-24 text-primary fw-700">We Pack</div>
-                                <div class="fs-18 text-grey">
+                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="step-description fs-18 text-grey">
                                     Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
                                 </div>
                             </div>
@@ -741,8 +741,8 @@
                                 <div class="number">3</div>
                             </div>
                             <div class="col">
-                                <div class="fs-24 text-primary fw-700">We Pack</div>
-                                <div class="fs-18 text-grey">
+                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="step-description fs-18 text-grey">
                                     Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
                                 </div>
                             </div>
@@ -752,13 +752,12 @@
                                 <div class="number">4</div>
                             </div>
                             <div class="col">
-                                <div class="fs-24 text-primary fw-700">We Pack</div>
-                                <div class="fs-18 text-grey">
+                                <div class="title fs-24 text-primary fw-700">We Pack</div>
+                                <div class="step-description fs-18 text-grey">
                                     Our skilled team of professionals will carefully pack your belongings using high-quality packing materials to ensure their safety during transportation and storage.
                                 </div>
                             </div>
                         </div>
-                        <!-- We MoveOnce everything is packed, the EasyBox is loaded onto our truck, where we transport your belongings to the desired location swiftly and securely.We StoreEasyBox offers secure and spacious storage facilities to keep your possessions safe until you need them again. Our storage units are equipped with state-of-the-art security systems for ultimate peace of mind.You RelaxWith JB Removals and EasyBox, you can sit back, relax, and enjoy a stress-free moving and storage experience. Leave the hard work to us while you focus on settling into your new space. -->
                     </div>
                 </div>
             </div>
@@ -766,9 +765,9 @@
     </div>
 </section>
 
-<section class="cta py-9 text-white">
+<section class="cta py-6 py-md-9 text-white">
     <div class="container">
-        <div class="text-capitalize text-center fs-96 lh-1 fw-700">Most trusted removals &amp;<br /> Storage Sydney Wide</div>
+        <div class="heading text-capitalize text-center fs-96 lh-1 fw-700">Most trusted removals &amp;<br /> Storage Sydney Wide</div>
         <div class="row justify-content-center pt-5">
             <div class="col-12 col-lg-6">
                 <div class="row gx-2">
@@ -846,7 +845,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-12 col-md-4 col-lg d-flex flex-column gap-2">
                         <div class="fs-18 fw-700 text-light pb-3">Quick Links</div>
                         <div><a href="./" class="text-grey fs-18 fw-500">Home</a></div>
