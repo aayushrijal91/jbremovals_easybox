@@ -284,6 +284,12 @@ section.specification {
                         height: 50px;
                     }
                 }
+
+                .inputWarning {
+                    font-size: 14px;
+                    color: red;
+                    display: none;
+                }
             }
         }
 

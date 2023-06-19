@@ -87,3 +87,42 @@ $('#return-to-top').on('click', () => {
         scrollTop: 0
     }, 500);
 });
+
+const today = new Date().toISOString().split('T')[0];
+document.getElementById("dateInput").setAttribute("min", today);
+
+function validateForm() {
+    let phoneInput = $('#phoneInput').val();
+    let re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+    if(!re.test(phoneInput)) {
+        $('#phoneError').fadeIn();
+
+        return false;
+    }
+
+    return true;
+}
+
+$("#heroForm").on('submit', function () {
+    return validateForm();
+});
+
+let autocompleteFrom;
+let autocompleteTo;
+
+function initPlaces() {
+    if ($('#moving-from').length) {
+        autocompleteFrom = new google.maps.places.Autocomplete(
+            document.getElementById('moving-from'),
+            { types: ['geocode'] }
+        );
+    }
+
+    if ($('#moving-to').length) {
+        autocompleteTo = new google.maps.places.Autocomplete(
+            document.getElementById('moving-to'),
+            { types: ['geocode'] }
+        );
+    }
+};

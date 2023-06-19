@@ -593,13 +593,14 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <form action="./form.php" class="calculator_form px-3 px-md-5 px-lg-4 px-xl-5" method="POST">
+                            <form action="./src/form.php" class="calculator_form px-3 px-md-5 px-lg-4 px-xl-5" id="heroForm" method="POST">
+                                <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse" />
                                 <div class="row gy-3 gy-md-4">
                                     <div class="col-12">
                                         <input type="text" name="name" placeholder="Name" class="form-control" required>
                                     </div>
                                     <div class="col-12">
-                                        <select name="easybox" class="form-control form-select" required>
+                                        <select name="service" class="form-control form-select" required>
                                             <option disabled selected>Choose Your Easy Box™</option>
                                             <option>The Temp Store - 1 week to 3 months</option>
                                             <option>The Secure Store - 3 to 6 months</option>
@@ -607,19 +608,20 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
+                                        <input type="tel" id="phoneInput" name="phone" placeholder="Phone Number" class="form-control" required>
+                                        <div class="inputWarning" id="phoneError">This is invalid input</div>
                                     </div>
                                     <div class="col-md-6">
                                         <input type="email" name="email" placeholder="Email Address" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" name="pickup_location" placeholder="Pick Up Location" class="form-control" required>
+                                        <input type="text" name="pickup_location" id="moving-from" placeholder="Pick Up Location" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" name="dropoff_location" placeholder="Drop off Location" class="form-control" required>
+                                        <input type="text" name="dropoff_location" id="moving-to" placeholder="Drop off Location" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="date" name="date" placeholder="Date" class="form-control" required>
+                                        <input type="date" name="date" id="dateInput" placeholder="Date" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
                                         <input type="time" name="time" placeholder="Time" class="form-control" required>

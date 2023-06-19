@@ -19,9 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $subject = "Message from " . $site;
 
         $name = $_POST['name'];
+        $service = $_POST['service'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
-        $message = $_POST['message'];
+        $pickup_location = $_POST['pickup_location'];
+        $dropoff_location = $_POST['dropoff_location'];
+        $date = $_POST['date'];
+        $time = $_POST['time'];
 
         $message = '<!DOCTYPE html>
                 <html>
@@ -58,8 +62,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td><b>' . strip_tags($email) . '</b></td>' .
             '</tr>' .
             '<tr>' .
-            '<td>Message</td>' .
-            '<td><b>' . strip_tags($message) . '</b></td>' .
+            '<td>EasyBox Choice</td>' .
+            '<td><b>' . strip_tags($service) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Pickup Address</td>' .
+            '<td><b>' . strip_tags($pickup_location) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Dropoff Address</td>' .
+            '<td><b>' . strip_tags($dropoff_location) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Date</td>' .
+            '<td><b>' . strip_tags($date) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Time</td>' .
+            '<td><b>' . strip_tags($time) . '</b></td>' .
             '</tr>' .
             '</tbody></table></body></html>';
 
