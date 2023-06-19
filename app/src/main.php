@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row no-gutters justify-content-lg-end align-items-center bottom-nav-wrapper d-none d-lg-flex">
+                    <div class="row gx-0 justify-content-lg-end align-items-center bottom-nav-wrapper d-none d-lg-flex">
                         <div class="col-12 col-md-auto nav-seperator">
                             <a href="https://www.jbremovals.sydney/about-us/" class="btn btn-block text-white header-bottom-navigation h14 fw-600 line-height-1">
                                 About Us
@@ -148,12 +148,12 @@
     </nav>
 </header>
 
-<section class="banner pt-5 pt-lg-0">
-    <div class="container-fluid px-lg-0">
+<section class="banner pt-5 py-lg-5 py-xl-0">
+    <div class="container-fluid px-xl-0">
         <div class="row gx-0 align-items-center">
             <div class="col-lg-6">
                 <div class="row justify-content-end">
-                    <div class="col-lg-11 text-white">
+                    <div class="col-xl-11 text-white">
                         <div class="d-flex align-items-center">
                             <?= renderImg('stars.png', 'icons') ?>
                             <div class="fs-20 fw-700 ps-4">Over 1,248 Aussies love Easy Box™</div>
@@ -201,7 +201,7 @@
 <section class="ourSteps py-6 py-md-8">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-xl-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-1.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 1</div>
@@ -211,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-xl-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-2.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 2</div>
@@ -221,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-xl-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-3.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 3</div>
@@ -231,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-xl-3">
                 <div class="step-card d-flex flex-column align-items-center text-center">
                     <?= renderImg('step-4.png', 'lib') ?>
                     <div class="bg-primary d-inline-flex text-white rounded-7 fs-36 lh-1 px-4 py-1">Step 4</div>
@@ -246,13 +246,13 @@
 </section>
 
 <section class="ctas">
-    <div class="container-fluid px-lg-0">
+    <div class="container-fluid px-xl-0">
         <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6">
-                <div class="row justify-content-center py-6 py-lg-0">
-                    <div class="col-lg-8">
-                        <div class="text-uppercase fw-800 text-primary fs-54 lh-1">mobile storage service JB Removals Easy Box™</div>
-                        <div class="text-black fs-18 font-dmsans py-4 py-md-5">
+            <div class="col-xl-6">
+                <div class="row justify-content-center py-6 py-xl-0">
+                    <div class="col-lg-11 col-xl-8">
+                        <div class="heading text-uppercase fw-800 text-primary fs-54 lh-1">mobile storage service JB Removals Easy Box™</div>
+                        <div class="text-black fs-18 font-dmsans py-4 py-xl-5">
                             <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                         </div>
                         <a href="#" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
@@ -260,7 +260,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-xl-6">
                 <div class="ctas_Slider">
                     <div class="slide">
                         <?= renderImg('cta_1.jpg', 'lib', 'main_img') ?>
@@ -362,14 +362,14 @@
     <div class="container">
         <div class="text-primary text-center fs-64 fw-800 lh-1 pb-5"><span class="text-white">Why</span> Easy Box™?</div>
         <div class="row justify-content-center">
-            <div class="col-lg-11">
+            <div class="col-xl-11">
                 <div class="main_container">
                     <div class="row align-items-center gy-5">
                         <div class="col-lg-5">
                             <?= renderImg('why_us.png', 'lib') ?>
                         </div>
                         <div class="col-lg-7">
-                            <div class="px-lg-7">
+                            <div class="px-xl-7">
                                 <table class="table table-borderless">
                                     <tr>
                                         <th></th>
@@ -482,13 +482,13 @@
 <section class="mobile_storage_service">
     <div class="container">
         <div class="row justify-content-end">
-            <div class="col-lg-5">
+            <div class="col-xl-5">
                 <div class="lh-1 fs-54 fw-700 text-white">
                     <div class="text-white">Mobile Storage Service</div>
                     <div class="text-primary">JB Removals Easy Box™</div>
                 </div>
 
-                <div class="text-white py-5 pt-lg-8 fs-18">
+                <div class="text-white py-5 pt-xl-8 fs-18">
                     Get a personalized and convenient storage solution that comes directly to your doorstep. Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                 </div>
 
@@ -501,7 +501,7 @@
 <section class="specification">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-lg-5">
+            <div class="col-xl-5">
                 <div class="spec-card">
                     <div class="pe-3 pe-md-5">
                         <div class="fs-32 text-primary fw-600">The Temp Store</div>
@@ -530,7 +530,7 @@
                     <?= renderImg('long-term.png', 'lib') ?>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-xl-7">
                 <div class="text-black text-uppercase text-center fs-48 fw-800 pb-5"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
                 <?= renderImg('spec.png', 'lib', 'w-100') ?>
             </div>
@@ -541,7 +541,7 @@
         <div class="calculator-wrapper">
             <div class="calc_slider">
                 <div>
-                    <div class="row align-items-center px-lg-8 gy-5">
+                    <div class="row align-items-center px-xl-8 gy-5">
                         <div class="col-lg-6 d-flex justify-content-center">
                             <div class="videoWrapper">
                                 <?= renderImg('iphoneFrame.png', 'lib', 'frame') ?>
@@ -574,16 +574,16 @@
                     </div>
                 </div>
                 <div>
-                    <div class="row align-items-center h-100 px-lg-8">
+                    <div class="row align-items-center h-100 px-xl-8">
                         <div class="col-lg-6 text-black">
-                            <div class="px-3 px-md-5">
+                            <div class="px-3 px-md-5 px-lg-4 px-xl-5">
                                 <div class="fs-20 font-dmsans">Simplify Your Storage With Easy Box Storage Solutions</div>
                                 <div class="fs-40 text-uppercase fw-800 lh-1 py-3 pb-md-6">Book Your Easy Box™ Storage Today and Free Up Your Space!</div>
                                 <div class="fs-18 font-dmsans">Experience Instant Storage Solutions - Book Now and Declutter in Minutes!</div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <form action="./form.php" class="calculator_form px-3 px-md-5" method="POST">
+                            <form action="./form.php" class="calculator_form px-3 px-md-5 px-lg-4 px-xl-5" method="POST">
                                 <div class="row gy-3 gy-md-4">
                                     <div class="col-12">
                                         <input type="text" name="name" placeholder="Name" class="form-control">
@@ -664,7 +664,7 @@
         ?>
 
         <div class="row justify-content-center pt-4 pt-md-6">
-            <div class="col-lg-9">
+            <div class="col-xl-9">
                 <ul class="accordion">
                     <?php foreach ($faqs as $faq) { ?>
                         <div class="accordion-item">
@@ -688,7 +688,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="px-lg-4">
+                <div class="px-xl-4">
                     <div class="heroImg"><?= renderImg('about.jpg', 'lib') ?></div>
 
                     <div class="text-white font-dmsans fw-700 fs-20 pt-5 pb-4">
