@@ -250,7 +250,7 @@
     <div class="container-fluid px-xl-0">
         <div class="row align-items-center justify-content-between">
             <div class="col-xl-6">
-                <div class="row justify-content-center py-6 py-xl-0">
+                <div class="row gx-lg-0 justify-content-center py-6 py-xl-0">
                     <div class="col-lg-11 col-xl-8">
                         <div class="heading text-uppercase fw-800 text-primary fs-54 lh-1">mobile storage service JB Removals Easy Box™</div>
                         <div class="text-black fs-18 font-dmsans py-4 py-xl-5">
@@ -279,7 +279,16 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <?= renderImg('cta_2.jpg', 'lib', 'main_img') ?>
+                        <div class="main_img bg-primary d-flex justify-content-center align-items-end">
+                            <div class="videoWrapper">
+                                <?= renderImg('iphoneFrame.png', 'lib', 'frame') ?>
+                                <video class="video" autoplay muted>
+                                    <source src="./assets/video/iphoneVideo.mp4" type="video/mp4">
+                                    <source src="./assets/video/iphoneVideo.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
                         <div class="cta_card gap-2 d-none d-md-flex">
                             <div>
                                 <svg width="100" height="78" viewBox="0 0 100 78" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -84,7 +84,12 @@ section.ctas {
     background: #f3f3f3;
 
     .ctas_Slider {
+        .slick-track {
+            display: flex;
+        }
+
         .slick-slide {
+            height: inherit;
             position: relative;
             display: flex;
             justify-content: center;
@@ -103,6 +108,38 @@ section.ctas {
                 background: $white;
                 display: flex;
                 align-items: center;
+                z-index: 1000;
+            }
+
+            .videoWrapper {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+
+                @include media-breakpoint-up(md) {
+                    max-height: 753px;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    width: 60%;
+                }
+
+                .frame {
+                    position: relative;
+                    z-index: 1000;
+                }
+
+                .video {
+                    position: absolute;
+                    top: 3rem;
+                    width: 90%;
+                    z-index: 1;
+
+                    @include media-breakpoint-down(sm) {
+                        top: 1rem;
+                    }
+                }
             }
         }
 
