@@ -25,7 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $pickup_location = $_POST['pickup_location'];
         $dropoff_location = $_POST['dropoff_location'];
         $date = $_POST['date'];
-        $time = $_POST['time'];
 
         $message = '<!DOCTYPE html>
                 <html>
@@ -77,10 +76,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td>Date</td>' .
             '<td><b>' . strip_tags($date) . '</b></td>' .
             '</tr>' .
-            '<tr>' .
-            '<td>Time</td>' .
-            '<td><b>' . strip_tags($time) . '</b></td>' .
-            '</tr>' .
             '</tbody></table></body></html>';
 
         $headers = "MIME-Version: 1.0\r\n" .
@@ -92,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $result = mail($to, $subject, $message, $headers);
 
         if ($result) {
-            header('location:./../thankyou');
+            header('location:./../thankyou.php');
         } else {
             throw new Exception('Failed, please submit form again or call us directly.');
         }
