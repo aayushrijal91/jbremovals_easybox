@@ -156,7 +156,7 @@
                     <div class="col-xl-11 text-white">
                         <div class="d-flex align-items-center">
                             <?= renderImg('stars.png', 'icons') ?>
-                            <div class="fs-20 fw-700 ps-4">Over 1,248 Aussies love Easy Box™</div>
+                            <div class="over-text fs-20 fw-700 ps-4 lh-1">Over 1,248 Aussies love Easy Box™</div>
                         </div>
                         <div class="text-uppercase fs-64 fw-800 lh-1 py-3">Move <span class="fw-300">anywhere anytime</span> with Easy Box™</div>
                         <div class="fs-24 font-dmsans fw-500">Mobile Storage Solution in Sydney and the Central Coast<br /> JB Removals EasyBox.</div>
@@ -171,12 +171,12 @@
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a href="#" class="btn btn-black text-white rounded-0 fw-500 fs-26 px-3 px-md-4 py-3 font-dmsans gap-2">
+                                <a href="#calculator" class="btn btn-black text-white rounded-0 fw-500 fs-26 px-3 px-md-4 py-3 font-dmsans gap-2">
                                     Get a live quote
                                 </a>
                             </div>
                         </div>
-                        <div class="fs-24 font-dmsans fw-500">First Month FREE*</div>
+                        <div class="fs-24 font-dmsans fw-500">Get the first month FREE*</div>
 
                         <div class="banner_slider_step mt-5">
                             <div><?= renderImg('slider-step-1.png', 'lib') ?></div>
@@ -199,7 +199,7 @@
     </div>
 </section>
 
-<section class="ourSteps py-6 py-md-8">
+<section class="ourSteps py-6 py-md-8 d-none d-lg-block">
     <div class="container">
         <div class="row gy-5">
             <div class="col-md-6 col-xl-3">
@@ -256,7 +256,7 @@
                         <div class="text-black fs-18 font-dmsans py-4 py-xl-5">
                             <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                         </div>
-                        <a href="#" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
+                        <a href="#calculator" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
                     </div>
                 </div>
             </div>
@@ -481,7 +481,7 @@
                 </a>
             </div>
             <div class="col-auto">
-                <a href="" class="btn bg-primary text-white rounded-0 fw-500 fs-26 p-3 p-md-4 font-dmsans gap-2">
+                <a href="#calculator" class="btn bg-primary text-white rounded-0 fw-500 fs-26 p-3 p-md-4 font-dmsans gap-2">
                     Get a live quote
                 </a>
             </div>
@@ -502,7 +502,7 @@
                     Get a personalized and convenient storage solution that comes directly to your doorstep. Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
                 </div>
 
-                <a href="#" class="btn btn-black text-white d-inline-flex px-3 px-md-5 rounded-0 py-2 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
+                <a href="#calculator" class="btn btn-black text-white d-inline-flex px-3 px-md-5 rounded-0 py-2 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
             </div>
         </div>
     </div>
@@ -510,6 +510,7 @@
 
 <section class="specification">
     <div class="container">
+    <div class="text-black text-uppercase text-center fs-48 fw-800 pb-3 lh-1 d-lg-none"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
         <div class="row gy-5">
             <div class="col-xl-5">
                 <div class="spec-card">
@@ -541,14 +542,14 @@
                 </div>
             </div>
             <div class="col-xl-7">
-                <div class="text-black text-uppercase text-center fs-48 fw-800 pb-5"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
+                <div class="text-black text-uppercase text-center fs-48 fw-800 pb-5 lh-1 d-none d-lg-block"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
                 <?= renderImg('spec.png', 'lib', 'w-100') ?>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="calculator-wrapper">
+        <div class="calculator-wrapper" id="calculator">
             <div class="calc_slider">
                 <div>
                     <div class="row align-items-center px-xl-8 gy-5">
@@ -612,6 +613,9 @@
                                         <div class="inputWarning" id="phoneError">This is invalid input</div>
                                     </div>
                                     <div class="col-md-6">
+                                        <input type="date" name="date" id="dateInput" placeholder="Date" class="form-control" required>
+                                    </div>
+                                    <div class="col-12">
                                         <input type="email" name="email" placeholder="Email Address" class="form-control" required>
                                     </div>
                                     <div class="col-md-6">
@@ -619,12 +623,6 @@
                                     </div>
                                     <div class="col-md-6">
                                         <input type="text" name="dropoff_location" id="moving-to" placeholder="Drop off Location" class="form-control" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="date" name="date" id="dateInput" placeholder="Date" class="form-control" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="time" name="time" placeholder="Time" class="form-control" required>
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary form-button">Book your Easy Box™ Now!</button>
@@ -667,7 +665,7 @@
             ],
             [
                 "question" => "What happens if I need to change the delivery or pick-up date after I've scheduled it?",
-                "answer" => "At EasyBox we understand that circumstances change. Call our customer service team on 0101010 and we'll organise a solution.",
+                "answer" => "At EasyBox we understand that circumstances change. Call our customer service team on <a href='tel:" . $phone_number . "'>" . $phone_number . "</a> and we'll organise a solution.",
             ],
             [
                 "question" => "Can the mobile storage unit be kept on my property or does it need to be stored at a designated facility?",
@@ -725,7 +723,7 @@
                             <a href="tel:<?= $phone_number ?>" class="btn border-2 border-white text-white rounded-0 fw-500 font-dmsans fs-20 px-4">Call <?= $phone_number ?></a>
                         </div>
                         <div class="col-auto">
-                            <a href="#" class="btn btn-black text-white rounded-0 fw-500 fs-20 px-4 font-dmsans">Get a live quote</a>
+                            <a href="#calculator" class="btn btn-black text-white rounded-0 fw-500 fs-20 px-4 font-dmsans">Get a live quote</a>
                         </div>
                     </div>
 
@@ -789,13 +787,13 @@
             <div class="col-12 col-lg-6">
                 <div class="row gx-2">
                     <div class="col-4">
-                        <a href="" class="btn btn-dark-grey text-white rounded-0 fw-700 fs-20">Book Online</a>
+                        <a href="#calculator" class="btn btn-dark-grey text-white rounded-0 fw-700 fs-20">Book Online</a>
                     </div>
                     <div class="col-4">
-                        <a href="" class="btn btn-dark-grey text-white rounded-0 fw-700 fs-20">Free Quote</a>
+                        <a href="#calculator" class="btn btn-dark-grey text-white rounded-0 fw-700 fs-20">Free Quote</a>
                     </div>
                     <div class="col-4">
-                        <a href="" class="btn btn-primary text-white rounded-0 fw-700 fs-20">Call Now</a>
+                        <a href="tel:<?= $phone_number ?>" class="btn btn-primary text-white rounded-0 fw-700 fs-20">Call Now</a>
                     </div>
                 </div>
             </div>
@@ -891,7 +889,7 @@
                         </div>
 
                         <div>
-                            <a href="" class="text-grey fs-18 fw-500">Office Removalist</a>
+                            <a href="https://www.jbremovals.sydney/removalists-northern-beaches/" class="text-grey fs-18 fw-500">Office Removalist</a>
                         </div>
 
                         <div class="d-flex align-items-start gap-2">
@@ -924,7 +922,7 @@
                         <div><a href="https://www.jbremovals.sydney/book-us/" class="text-grey fs-18 fw-500">Book
                                 Now</a></div>
                         <div><a href="https://www.jbremovals.sydney/free-moving-calculator/" class="text-grey fs-18 fw-500">Free Moving Calculator</a></div>
-                        <div><a href="" class="text-grey fs-18 fw-500">Privacy Policies</a></div>
+                        <div><a href="./" class="text-grey fs-18 fw-500">Privacy Policies</a></div>
                         <div><a href="https://www.jbremovals.sydney/terms-and-conditions/" class="text-grey fs-18 fw-500">Terms &amp; Conditions</a></div>
                     </div>
                     <div class="col-12 col-md-4 col-lg d-flex flex-column gap-2">

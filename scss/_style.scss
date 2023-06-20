@@ -78,6 +78,12 @@ section.banner {
             }
         }
     }
+
+    .over-text {
+        @include media-breakpoint-down(sm){
+            font-size: 14px !important;
+        }
+    }
 }
 
 section.ctas {
@@ -208,6 +214,10 @@ section.mobile_storage_service {
     @include media-breakpoint-down(xl) {
         padding: 80px 0;
         background: linear-gradient(180deg, $black 0%, $primary 100%);
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 24px 0 48px;
     }
 }
 
