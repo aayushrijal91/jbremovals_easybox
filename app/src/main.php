@@ -158,9 +158,9 @@
                             <?= renderImg('stars.png', 'icons') ?>
                             <div class="over-text fs-20 fw-700 ps-4 lh-1">Over 1,248 Aussies love Easy Box™</div>
                         </div>
-                        <div class="text-uppercase fs-64 fw-800 lh-1 py-3">Move <span class="fw-300">anywhere anytime</span> with Easy Box™</div>
-                        <div class="fs-24 font-dmsans fw-500">Mobile Storage Solution in Sydney and the Central Coast<br /> JB Removals EasyBox.</div>
-                        <div class="row py-5">
+                        <div class="heroHeading text-uppercase fs-64 fw-800 lh-1 py-3">Move <span class="fw-300">anywhere anytime</span> with Easy Box™</div>
+                        <div class="subHeading fs-24 font-dmsans fw-500">Mobile Storage Solution in Sydney and the Central Coast<br class="d-none d-md-block" /> JB Removals EasyBox.</div>
+                        <div class="row py-4 py-md-5">
                             <div class="col-auto">
                                 <a href="tel:<?= $phone_number ?>" class="btn bg-white text-primary rounded-0 fw-500 fs-26 px-3 px-md-4 py-3 font-dmsans gap-2">
                                     <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +176,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fs-24 font-dmsans fw-500">Get the first month FREE*</div>
+                        <div class="subHeading fs-24 font-dmsans fw-500">Get the first month FREE*</div>
 
                         <div class="banner_slider_step mt-5">
                             <div><?= renderImg('slider-step-1.png', 'lib') ?></div>
@@ -250,13 +250,15 @@
     <div class="container-fluid px-xl-0">
         <div class="row align-items-center justify-content-between">
             <div class="col-xl-6">
-                <div class="row gx-lg-0 justify-content-center py-6 py-xl-0">
+                <div class="row gx-lg-0 justify-content-center pb-4 pt-6 py-md-6 py-xl-0">
                     <div class="col-lg-11 col-xl-8">
                         <div class="heading text-uppercase fw-800 text-primary fs-54 lh-1">mobile storage service JB Removals Easy Box™</div>
-                        <div class="text-black fs-18 font-dmsans py-4 py-xl-5">
-                            <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
+                        <div class="d-none d-md-block">
+                            <div class="description text-black fs-18 font-dmsans py-4 py-xl-5">
+                                <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
+                            </div>
+                            <a href="#calculator" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Get Your EasyBox™ Quote Now</a>
                         </div>
-                        <a href="#calculator" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Book your Easy Box™ Removal Now</a>
                     </div>
                 </div>
             </div>
@@ -363,6 +365,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-12 d-md-none pb-6">
+                <div class="description text-black fs-18 font-dmsans py-4 py-xl-5">
+                    <span class="fw-700">Get a personalized and convenient storage solution that comes directly to your doorstep.</span> Experience the ultimate in mobile storage throughout Sydney and the Central Coast, with our cutting-edge 3D storage calculator, you can visualize your belongings being loaded in real time and accurately estimate the number of storage boxes required. This ensures you know the exact cost upfront, without any hidden surprises.
+                </div>
+                <a href="#calculator" class="btn btn-primary text-white d-inline-flex px-3 px-md-5 rounded-0 py-3 py-md-4 fs-20 fw-700">Get Your EasyBox™ Quote Now</a>
             </div>
         </div>
     </div>
@@ -510,39 +519,42 @@
 
 <section class="specification">
     <div class="container">
-    <div class="text-black text-uppercase text-center fs-48 fw-800 pb-3 lh-1 d-lg-none"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
+        <div class="text-black text-uppercase text-center fs-48 fw-800 pb-3 lh-1 d-lg-none"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
         <div class="row gy-5">
             <div class="col-xl-5">
                 <div class="spec-card">
                     <div class="pe-3 pe-md-5">
-                        <div class="fs-32 text-primary fw-600">The Temp Store</div>
+                        <div class="text-primary text-bold fs-16 fw-800">*10% OFF First Client</div>
+                        <div class="title fs-32 fw-800">The Temp Store</div>
                         <div class="description text-black fs-18 fw-500 font-dmsans">
-                            From just 1 week or to 3 Months. The Temp Store package is perfect for quick moves or temporary storage. We'll help you move in and out of your new place, or hold your things while you renovate! Fixed Price - Save up to 10%
+                            From just 1 week or to 3 Months. The Temp Store package is perfect for quick moves or temporary storage. We'll help you move in and out of your new place, or hold your things while you renovate! Fixed Price - <span class="text-primary">Save up to 10%</span>
                         </div>
                     </div>
                     <?= renderImg('temp.png', 'lib') ?>
                 </div>
                 <div class="spec-card">
                     <div class="pe-3 pe-md-5">
-                        <div class="fs-32 text-primary fw-600">The Secure Store</div>
+                        <div class="text-primary text-bold fs-16 fw-800">*50% OFF First Month</div>
+                        <div class="title fs-32 fw-800">The Secure Store</div>
                         <div class="description text-black fs-18 fw-500 font-dmsans">
-                            The middle range! With our secure facilities this package is perfect for 3 - 6 Months. With 1 bonus month FREE. Store your belongings with confidence and save money!
+                            The middle range! With our secure facilities, this package is perfect for 3 - 6 Months. With a 50% Bonus discount on the first month. Store your belongings with confidence and <span class="text-primary">save money!</span>
                         </div>
                     </div>
                     <?= renderImg('secure.png', 'lib') ?>
                 </div>
                 <div class="spec-card">
                     <div class="pe-3 pe-md-5">
-                        <div class="fs-32 text-primary fw-600">The Long Term Store</div>
+                        <div class="text-primary text-bold fs-16 fw-800">*1 Month FREE</div>
+                        <div class="title fs-32 fw-800">The Long Term Store</div>
                         <div class="description text-black fs-18 fw-500 font-dmsans">
-                            The smart saver package! This 6 - 12 month storage plan is PERFECT for the home builder or the space saver. With a bonus 2.5 Months FREE this gives you flexible options to store your goods while you make other plans.
+                            The smart saver package! This 6 - 12 month storage plan is PERFECT for the home builder or the space saver. With a bonus <span class="text-primary">1 Months FREE</span> this gives you flexible options to store your goods while you make other plans
                         </div>
                     </div>
                     <?= renderImg('long-term.png', 'lib') ?>
                 </div>
             </div>
             <div class="col-xl-7">
-                <div class="text-black text-uppercase text-center fs-48 fw-800 pb-5 lh-1 d-none d-lg-block"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
+                <div class="text-black text-uppercase text-center fs-48 fw-800 pb-5 pb-lg-7 lh-1 d-none d-lg-block"><span class="text-primary">Easy Box &trade;</span> size & specs</div>
                 <?= renderImg('spec.png', 'lib', 'w-100') ?>
             </div>
         </div>
@@ -569,7 +581,7 @@
                                 <div class="text-uppercase text-black fw-800 fs-54 lh-1"><span class="text-primary">Easy-as</span> storage calculator</div>
                                 <div class="py-4 py-md-6 fs-18 fw-500 font-dmsans">Cutting-edge device is designed to make your moving experience seamless and stress-free</div>
 
-                                <a href="javascript:void(0)" id="goToForm" class="btn btn-primary d-inline-flex text-white rounded-0 fw-700 font-dmsans fs-20 px-3 px-md-5 py-2 py-md-4">
+                                <a href="https://www.jbremovals.sydney/storage-calculator/" target="_blank" class="btn btn-primary d-inline-flex text-white rounded-0 fw-700 font-dmsans fs-20 px-3 px-md-5 py-2 py-md-4">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.4951 0.732422H2.74512C1.50762 0.732422 0.495117 1.74492 0.495117 2.98242V18.7324C0.495117 19.9699 1.50762 20.9824 2.74512 20.9824H18.4951C19.7326 20.9824 20.7451 19.9699 20.7451 18.7324V2.98242C20.7451 1.74492 19.7326 0.732422 18.4951 0.732422ZM18.4951 18.7324H2.74512V2.98242H18.4951V18.7324Z" fill="white" />
                                         <path d="M9.77637 6.04242H4.15137V7.72992H9.77637V6.04242Z" fill="white" />

@@ -78,10 +78,6 @@ let calcSlider = $('.calc_slider').slick({
     ]
 });
 
-$('#goToForm').on('click', function () {
-    calcSlider.slick('slickGoTo', 1);
-})
-
 $('#return-to-top').on('click', () => {
     $('body,html').animate({
         scrollTop: 0
