@@ -1,15 +1,5 @@
 // AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#calculator"]').forEach(function (anchor) {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);
@@ -76,6 +66,18 @@ let calcSlider = $('.calc_slider').slick({
             }
         }
     ]
+});
+
+document.querySelectorAll('a[href="#calculator"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        $('.calc_slider').slick('slickGoTo', 1);
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+
+    });
 });
 
 $('#return-to-top').on('click', () => {
