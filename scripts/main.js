@@ -93,7 +93,7 @@ function validateForm() {
     let phoneInput = $('#phoneInput').val();
     let re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
-    if(!re.test(phoneInput)) {
+    if (!re.test(phoneInput)) {
         $('#phoneError').fadeIn();
 
         return false;
@@ -124,3 +124,5 @@ function initPlaces() {
         );
     }
 };
+
+$('#video_1').get(0).play();

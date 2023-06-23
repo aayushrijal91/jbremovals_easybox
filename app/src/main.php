@@ -269,7 +269,7 @@
                         <div class="main_img bg-primary d-flex justify-content-center align-items-end">
                             <div class="videoWrapper">
                                 <?= renderImg('iphoneFrame.png', 'lib', 'frame') ?>
-                                <video class="video" loop autoplay muted>
+                                <video class="video" playsinline loop autoplay muted controls>
                                     <source src="./assets/video/iphoneVideo.mp4" type="video/mp4">
                                     <source src="./assets/video/iphoneVideo.ogg" type="video/ogg">
                                     Your browser does not support the video tag.
@@ -568,7 +568,7 @@
                         <div class="col-lg-6 d-flex justify-content-center">
                             <div class="videoWrapper">
                                 <?= renderImg('iphoneFrame.png', 'lib', 'frame') ?>
-                                <video class="video" loop autoplay muted>
+                                <video class="video" id="video_1" playsinline loop autoplay muted controls>
                                     <source src="./assets/video/iphoneVideo.mp4" type="video/mp4">
                                     <source src="./assets/video/iphoneVideo.ogg" type="video/ogg">
                                     Your browser does not support the video tag.
@@ -845,27 +845,27 @@
                         <?= renderImg('service_3.jpg', 'lib') ?>
                     </div>
                     <div class="service-card-text-wrapper">
-                        Unpacking
+                        Removal Service
                     </div>
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl">
-                <a href="https://www.jbremovals.sydney/box-shop/">
+                <a href="https://www.jbremovals.sydney/">
                     <div class="service-img">
                         <?= renderImg('service_4.jpg', 'lib') ?>
                     </div>
                     <div class="service-card-text-wrapper">
-                        Box Shop
+                        Mobile Storage
                     </div>
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 col-xl py-2 py-xl-0">
-                <a href="https://www.jbremovals.sydney/">
+                <a href="https://www.jbremovals.sydney/box-shop/">
                     <div class="service-img">
                         <?= renderImg('service_5.jpg', 'lib') ?>
                     </div>
                     <div class="service-card-text-wrapper">
-                        Furniture Removals
+                        Box Shop
                     </div>
                 </a>
             </div>
